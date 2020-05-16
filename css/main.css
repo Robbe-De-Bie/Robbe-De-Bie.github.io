@@ -53,6 +53,9 @@ $black			: #222;
   background-color: #8490ff;
   color: #fff;
 }
+html {
+  scroll-behavior: auto;
+}
 
 ::selection {
   background-color: #8490ff;

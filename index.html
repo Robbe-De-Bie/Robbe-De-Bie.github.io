@@ -31,30 +31,15 @@
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
-			          <li><a href="index.html">Home</a></li>
+					  <li><a href="#bovenindex">Home</a></li>
+					  <li><a href="#competenties">Competenties</a></li>
+					  <li><a href="#tijdlijn">Tijdlijn</a></li>
+					  <li><a href="#recenteprojecten">Recente Projecten</a></li>
+
+					  
 			          <li><a href="about.html">About</a></li>
-			          <li><a href="services.html">Services</a></li>
-			          <li><a href="portfolio.html">Portfolio</a></li>
-			          <li><a href="price.html">Pricing</a></li>
-			          <li class="menu-has-children"><a href="">Blog</a>
-			            <ul>
-			              <li><a href="blog-home.html">Blog Home</a></li>
-			              <li><a href="blog-single.html">Blog Single</a></li>
-			            </ul>
-			          </li>	
-			          <li class="menu-has-children"><a href="">Pages</a>
-			            <ul>
-		            	  <li><a href="elements.html">Elements</a></li>
-				          <li class="menu-has-children"><a href="">Level 2 </a>
-				            <ul>
-				              <li><a href="#">Item One</a></li>
-				              <li><a href="#">Item Two</a></li>
-				            </ul>
-				          </li>					                		
-			            </ul>
-			          </li>					          					          		          
 			          <li><a href="contact.html">Contact</a></li>
-			        </ul>
+					</ul>
 			      </nav><!-- #nav-menu-container -->		    		
 		    	</div>
 		    </div>
@@ -62,13 +47,14 @@
 
 			<!-- start banner Area -->
 			<section class="banner-area">
-				<div class="container">
+				<div class="container" id="bovenindex">
 					<div class="row fullscreen align-items-center justify-content-between">
 						<div class="col-lg-6 col-md-6 banner-left">
 							<h6>Dit ben ik</h6>
 							<h1>Robbe De Bie</h1>
 							<p>
-								Student toegepaste informatica lalala
+								Student toegepaste informatica aan de UCLL te Haasrode. Afstudeerrichten Software-ontwikkeling.
+
 							</p>
 						</div>
 						<div class="col-lg-6 col-md-6 banner-right d-flex align-self-end">
@@ -90,7 +76,9 @@
 							<h6>Over mezelf</h6>
 							<h1 class="text-uppercase">Persoonlijke details</h1>
 							<p>
-								Student toegepaste informatica aan de UCLL te Haasrode. Nog aan te vullen
+								Student toegepaste informatica aan de UCLL te Haasrode.
+								Al van jongs af aan geïnteresseerd in computers, wat gereflecteerd wordt in mijn studies.
+								Sociaal ingesteld en een teamspeler.
 							</p>
 							<a href="#" class="primary-btn text-uppercase">Download CV</a>
 						</div>
@@ -101,7 +89,7 @@
 
 			<!-- Start services Area -->
 			<section class="services-area section-gap">
-				<div class="container">
+				<div class="container" id="competenties">
 		            <div class="row d-flex justify-content-center">
 		                <div class="menu-content  col-lg-7">
 		                    <div class="title text-center">
@@ -116,7 +104,7 @@
 						<div class="col-lg-4 col-md-6">
 							<div class="single-services">
 								<span class="lnr lnr-pie-chart"></span>
-                                <a href="#"><h4>Systeem en Netwerkbeheer.</h4></a>
+                                <h4>Systeem en Netwerkbeheer</h4>
                                 <p>
                                     Basiskennis Windows Server 2019 (Active Directory), Linux en Docker.
                                 </p>
@@ -126,27 +114,29 @@
 						<div class="col-lg-4 col-md-6">
 							<div class="single-services">
 								<span class="lnr lnr-laptop-phone"></span>
-                                <a href="#"><h4>Gegevens behandelen</h4></a>
+                                <h4>Gegevens behandelen</h4>
                                 <p>
-                                    Een basiskennis van PostgreSQL.
+                                    Een basiskennis van PostgreSQL en databanken.
                                 </p>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6">
 							<div class="single-services">
 								<span class="lnr lnr-camera"></span>
-								<a href="#"><h4>Front end development.</h4></a>
+								<h4>Front end development</h4>
 								<p>
-                                    Gebruik van JavaScript, CSS & HTML5.
+								   HTML & CSS, JavaScript, Jquery
 								</p>
+								<p>Gewerkt met de volgende frameworks doorheen mijn studies:</p>
+								<p>Spring Boot, Phoenix Framework, WPF</p>
 							</div>	
 						</div>
 						<div class="col-lg-4 col-md-6">
 							<div class="single-services">
-								<span class="lr lnr-picture"></span>
-								<a href="#"><h4>Back end development.</h4></a>
+								<span class="lnr lnr-picture"></span>
+								<h4>Back end development</h4>
 								<p>
-									Java, C# (WPF), basis van Python, Elixir en C++.
+									Java, C#, basis van Python, Elixir en C++.
 								</p>
 							</div>
 						</div>
@@ -162,9 +152,9 @@
 						<div class="col-lg-4 col-md-6">
 							<div class="single-services">
 								<span class="lnr lnr-rocket"></span>
-								<a href="#"><h4>Andere</h4></a>
+								><h4>Andere</h4>
 								<p>
-									Microsoft Office, ...
+									Testing and basis Business Analyse
 								</p>
 							</div>				
 						</div>														
@@ -175,7 +165,7 @@
 
 		  <!-- added this in as a test -->
 		  <section class="timeline pb-120">
-			  <div class="text-center">
+			  <div class="text-center" id="tijdlijn">
 				  <div class="menu-content pb-70">
 					  <div class="title text-center">
 						  <h1 class="mb-10">Mijn tijdlijn</h1>
@@ -218,161 +208,45 @@
 		  </section>
 		  <!-- Start recente projecten -->
 		  <section class="recent-blog-area section-gap">
-			  <div class="container">
+			  <div class="container" id="recenteprojecten">
 				  <div class="row justify-content-center">
 					  <div class="col-md-8 pb-30 header-text">
 						  <h1>Mijn recente projecten</h1>
 						  <p>
-							  Hier is een klein overzichtje van recente projecten waar ik aan gewerkt heb.
+							  Hier is een klein overzicht van enkele projecten waar ik aan gewerkt heb. Je kan me altijd contacteren om al mijn projecten te bekijken of om de code van deze projecten te bekijken.
 						  </p>
 					  </div>
 				  </div>
 				  <div class="row">
 					  <div class="single-recent-blog col-lg-4 col-md-4">
 						  <div class="thumb">
-							  <img class="f-img img-fluid mx-auto" src="img/ucll.png" alt="">
+							  <img class="f-img img-fluid mx-auto" src="img/star.png" alt="">
 						  </div>
-						  <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
-							  <div>
-								  <img class="img-fluid" src="img/user.png" alt="">
-								  <a href="#"><span>Mark Wiens</span></a>
-							  </div>
-							  <div class="meta">
-								  13th Dec
-								  <span class="lnr lnr-heart"></span> 15
-								  <span class="lnr lnr-bubble"></span> 04
-							  </div>
-						  </div>
-						  <a href="#">
-							  <h4>Break Through Self Doubt
-								  And Fear</h4>
-						  </a>
-						  <p>
-							  Dream interpretation has many forms; it can be done be done for the sake of fun, hobby or can be taken up as a serious career.
-						  </p>
-					  </div>
-					  <div class="single-recent-blog col-lg-4 col-md-4">
-						  <div class="thumb">
-							  <img class="f-img img-fluid mx-auto" src="img/b2.jpg" alt="">
-						  </div>
-						  <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
-							  <div>
-								  <img class="img-fluid" src="img/user.png" alt="">
-								  <a href="#"><span>Mark Wiens</span></a>
-							  </div>
-							  <div class="meta">
-								  13th Dec
-								  <span class="lnr lnr-heart"></span> 15
-								  <span class="lnr lnr-bubble"></span> 04
-							  </div>
-						  </div>
-						  <a href="#">
-							  <h4>Portable Fashion for
-								  young women</h4>
-						  </a>
-						  <p>
-							  You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.
-						  </p>
-					  </div>
-					  <div class="single-recent-blog col-lg-4 col-md-4">
-						  <div class="thumb">
-							  <img class="f-img img-fluid mx-auto" src="img/b3.jpg" alt="">
-						  </div>
-						  <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
-							  <div>
-								  <img class="img-fluid" src="img/user.png" alt="">
-								  <a href="#"><span>Mark Wiens</span></a>
-							  </div>
-							  <div class="meta">
-								  13th Dec
-								  <span class="lnr lnr-heart"></span> 15
-								  <span class="lnr lnr-bubble"></span> 04
-							  </div>
-						  </div>
-						  <a href="#">
-							  <h4>Do Dreams Serve As
-								  A Premonition</h4>
-						  </a>
-						  <p>
-							  So many of us are demotivated to achieve anything. Such people are not enthusiastic about anything. They don’t want to work involved.
-						  </p>
-					  </div>
+							  <h4>Star Awards website</h4>
 
-
-				  </div>
-				  <div class="row">
-					  <div class="single-recent-blog col-lg-4 col-md-4">
-						  <div class="thumb">
-							  <img class="f-img img-fluid mx-auto" src="img/ucll.png" alt="">
-						  </div>
-						  <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
-							  <div>
-								  <img class="img-fluid" src="img/user.png" alt="">
-								  <a href="#"><span>Mark Wiens</span></a>
-							  </div>
-							  <div class="meta">
-								  13th Dec
-								  <span class="lnr lnr-heart"></span> 15
-								  <span class="lnr lnr-bubble"></span> 04
-							  </div>
-						  </div>
-						  <a href="#">
-							  <h4>Break Through Self Doubt
-								  And Fear</h4>
-						  </a>
 						  <p>
-							  Dream interpretation has many forms; it can be done be done for the sake of fun, hobby or can be taken up as a serious career.
+							  Een website gemaakt voor intern gebruik bij Ipsos, om collega's te bedanken voor nuttige hulp.
 						  </p>
 					  </div>
 					  <div class="single-recent-blog col-lg-4 col-md-4">
 						  <div class="thumb">
-							  <img class="f-img img-fluid mx-auto" src="img/b2.jpg" alt="">
+							  <img class="f-img img-fluid mx-auto" src="img/picross.PNG" alt="Afbeelding picross game">
 						  </div>
-						  <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
-							  <div>
-								  <img class="img-fluid" src="img/user.png" alt="">
-								  <a href="#"><span>Mark Wiens</span></a>
-							  </div>
-							  <div class="meta">
-								  13th Dec
-								  <span class="lnr lnr-heart"></span> 15
-								  <span class="lnr lnr-bubble"></span> 04
-							  </div>
-						  </div>
-						  <a href="#">
-							  <h4>Portable Fashion for
-								  young women</h4>
-						  </a>
+						  <div class="bottom d-flex justify-content-between align-items-center flex-wrap"></div>
+							  <h4>PiCross game</h4>
 						  <p>
-							  You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.
+							 Een PiCross game, gemaakt om met het WPF framework (.NET) vertrouwd te raken.
 						  </p>
 					  </div>
 					  <div class="single-recent-blog col-lg-4 col-md-4">
 						  <div class="thumb">
-							  <img class="f-img img-fluid mx-auto" src="img/b3.jpg" alt="">
+							  <img class="f-img img-fluid mx-auto" src="img/phoenix.PNG" alt="">
 						  </div>
-						  <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
-							  <div>
-								  <img class="img-fluid" src="img/user.png" alt="">
-								  <a href="#"><span>Mark Wiens</span></a>
-							  </div>
-							  <div class="meta">
-								  13th Dec
-								  <span class="lnr lnr-heart"></span> 15
-								  <span class="lnr lnr-bubble"></span> 04
-							  </div>
-						  </div>
-						  <a href="#">
-							  <h4>Do Dreams Serve As
-								  A Premonition</h4>
-						  </a>
+							  <h4>Website met Phoenix Framework</h4>
 						  <p>
-							  So many of us are demotivated to achieve anything. Such people are not enthusiastic about anything. They don’t want to work involved.
+							  Website om het Phoenix Framework te leren gebruiken, met log in features, genereren van api keys om CRUD operaties uit te voeren met third party applications.
 						  </p>
 					  </div>
-
-
-				  </div>
 			  </div>
 		  </section>
 
